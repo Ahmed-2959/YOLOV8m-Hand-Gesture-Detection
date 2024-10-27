@@ -1,0 +1,9 @@
+lib/
+lib64
+bin/
+pyvenv.cfg
+runs/
+share/
+yolov8m.pt
+yolo11n.pt
+dockerfile
