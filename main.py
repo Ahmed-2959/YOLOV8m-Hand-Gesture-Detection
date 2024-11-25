@@ -13,7 +13,7 @@ Audio_Pause_Buffer = 1.5
 
 while True:
     ret, frame = cam.read()
-    frame = cv2.convertScaleAbs(frame, alpha=2.3, beta=0)
+    frame = cv2.convertScaleAbs(frame, alpha=1.5, beta=0)
     results = model.predict(frame)
     names = model.names
 
